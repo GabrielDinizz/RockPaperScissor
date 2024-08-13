@@ -1,0 +1,50 @@
+.textContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: #ffff;
+    gap: 2rem;
+    padding-top: 2rem ;
+}
+
+.textContainer h1 {
+    font-size: 5rem;
+    text-shadow: -10px 0 0 #00246B;
+}
+
+.textContainer p {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.containerChoice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 8rem;
+}
+
+.containerChoice div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.backgroundImg {
+    background-color: #00246B;
+    padding: 2rem;
+    border-radius: 40px;
+}
+
+.containerTextChoice {
+    display: flex;
+    justify-content: center;    
+}
+
+.textChoice p {
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 700;
+}
