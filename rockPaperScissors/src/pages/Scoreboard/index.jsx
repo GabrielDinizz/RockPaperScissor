@@ -53,7 +53,9 @@
                         </div>
                         <div className={styles.result}>
                             <h2>{result}</h2>
-                            <button>Play Again</button>
+                            <Link to="/">
+                                <button>Play Again</button>
+                            </Link>
                         </div>
                         <div>
                             <img src={machineChoiceImage} alt="" />
