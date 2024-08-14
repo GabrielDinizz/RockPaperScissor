@@ -5,6 +5,7 @@
     import Rock from '../../assets/Pedra.png';
     import Paper from '../../assets/Papel.png';
     import useMachineChoice from './useMachineChoice';
+    import { Link } from 'react-router-dom';
 
     function Scoreboard() {
         
