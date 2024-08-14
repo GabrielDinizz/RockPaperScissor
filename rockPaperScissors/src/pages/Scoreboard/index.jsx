@@ -27,8 +27,6 @@
         
         //Resultado
         let result = ''
-        let playerScore = 0
-        let machineScore = 0
         if (machineChoice === playerChoice) {
             result = 'Empate';
         } else if (
@@ -36,10 +34,8 @@
             (playerChoice === 'Scissor' && machineChoice === 'Paper') ||
             (playerChoice === 'Paper' && machineChoice === 'Rock')
         ) {
-            playerScore++
             result = 'Você Ganhou!';
         } else {
-            machineScore++
             result = 'Você Perdeu!';
         }
 
@@ -47,20 +43,6 @@
         return (
             <>
                 <div className={styles.container}>
-                    <div className={styles.scoreboardContainer}>
-                        <h1>rock paper scissors</h1>
-                        <div className={styles.scoreboard}>
-                            <div className={styles.user}>
-                                <h2>You</h2>
-                            </div>
-                            <div className={styles.scoreboardNumber}>
-                                <h2>{playerScore} x {machineScore}</h2>
-                            </div>
-                            <div className={styles.user}>
-                                <h2>Machine</h2>
-                            </div>
-                        </div>
-                    </div>
                     <div className={styles.containerGame}>
                         <div>
                             <img src={playerChoiceImage} alt="" />
