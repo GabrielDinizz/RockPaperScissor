@@ -43,6 +43,9 @@
         return (
             <>
                 <div className={styles.container}>
+                    <div className={styles.scoreboardContainer}>
+                        <h1>rock paper scissors</h1>
+                    </div>
                     <div className={styles.containerGame}>
                         <div>
                             <img src={playerChoiceImage} alt="" />
